@@ -23,13 +23,13 @@ matplotlib and numpy
 ## Running this package
 
 ```python
-from jafarkmi_diffusion2d.diffusion2d import solve
+from jafarkmi_diffusion2d import solve
 # intervals in x-, y- directions, mm
 dx = dy = 0.1
 # Thermal diffusivity of steel, mm^2/s
 D = 4.
 
-solve(dx,dy,D)
+diffusion2d.solve(dx,dy,D)
 ```
 
 ## Citing
