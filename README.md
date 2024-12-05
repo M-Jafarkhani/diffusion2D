@@ -14,7 +14,7 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 
 ### Using pip3 to install from PyPI
 
-`` pip3 install jafarkmi_diffusion2d``
+`` pip install -i https://test.pypi.org/simple/ jafarkmi-diffusion2d==0.0.7``
 
 ### Required dependencies
 
@@ -23,7 +23,7 @@ matplotlib and numpy
 ## Running this package
 
 ```python
-from jafarkmi_diffusion2d import solve
+from jafarkmi_diffusion2d.diffusion2d import solve
 # intervals in x-, y- directions, mm
 dx = dy = 0.1
 # Thermal diffusivity of steel, mm^2/s
